@@ -1,0 +1,34 @@
+body {
+margin: 5;
+padding: 0;
+background-color: #efeee7;
+font-size: 28px;
+font-family: "Georgia",Times New Roman,Times,serif;
+font: $333333;
+}
+
+p.first{ color: blue; }
+p.second{ color: red; }
+
+.large { 
+  color: #00FF00; 
+  font-family:arial; 
+  font-size: 28px; 
+  background-color: #FF5733;
+}
+
+.small { 
+  color: #00FF00; 
+  font-family:arial; 
+  font-size: 28px; 
+  background-color: #efeee7;
+  padding-left: 2em;
+  width: 10em;
+  height:2em;
+}
+
+#container {height: 100%; width:100%; font-size: 0;}
+#left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 45px;}
+#left {width: 25%; background: blue; height: 10em; font-size: 10px;}
+#middle {width: 50%; background: green; height: 10em; font-size: 10px;}
+#right {width: 25%; background: yellow; height: 10em; font-size: 10px;}
